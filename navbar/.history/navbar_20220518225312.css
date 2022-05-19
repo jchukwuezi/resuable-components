@@ -38,7 +38,7 @@ nav{
 
 .navbar__links{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     float: right;
     padding: 0;
@@ -132,7 +132,6 @@ nav{
     nav :checked ~ .navbar__burger 
     .navbar__line:nth-child(3){
         transform: translateY(-10px) rotate(-225deg);
-        width: 30px;
     }
 
     nav :checked ~ .navbar__burger 

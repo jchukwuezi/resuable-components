@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Open Sauce Sans Bold";
+    src: url(fonts/OpenSauceOne-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Open Sauce Sans Regular";
+    src: url(fonts/OpenSauceOne-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Open Sauce Sans Bold', sans-serif;
+}
+
+p, a{
+    font-family: 'Open Sauce Sans Regular', sans-serif;
+}
+
+html{
+    background: var(--dark-grey);
+}
+
+
+:root{
+    --grey: #F5F7F8;
+    --dark-grey: #444444;
+    --black: #000000;
+}
+
+.container{
+    width: 85%;
+    max-width: 62rem;
+    margin: 0 auto;
+}
+
+.card-wrapper{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    grid-template-rows: auto;
+    gap: 1rem;
+}
+
+.card{
+    min-height: 100%;
+    background: var(--grey);
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    align-items: center;
+}
+
+.card__btn_wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card__btn{
+    display: block;
+    margin: 1.5rem;
+    border-radius: 0.5rem;
+    border: 0;
+    text-align: center;
+    text-decoration: none;
+    color: var(--grey);
+    background-color: var(--black);
+    padding: 0.5rem;
+}

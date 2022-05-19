@@ -38,7 +38,7 @@ nav{
 
 .navbar__links{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     float: right;
     padding: 0;

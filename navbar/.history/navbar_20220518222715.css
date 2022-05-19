@@ -38,7 +38,7 @@ nav{
 
 .navbar__links{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     float: right;
     padding: 0;
@@ -54,7 +54,7 @@ nav{
 .navbar__links a{
     text-decoration: none;
     color: var(--white);
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 #navbar__toggle{
@@ -77,11 +77,6 @@ nav{
     background-color: var(--white);
     border-radius: 3px;
     transition: all .3s ease-in-out;
-}
-
-/*styling last navbar lin*/
-.navbar__line:nth-child(3){
-    width: 18px;
 }
 
 @media screen and (max-width: 768px){
@@ -132,7 +127,6 @@ nav{
     nav :checked ~ .navbar__burger 
     .navbar__line:nth-child(3){
         transform: translateY(-10px) rotate(-225deg);
-        width: 30px;
     }
 
     nav :checked ~ .navbar__burger 
