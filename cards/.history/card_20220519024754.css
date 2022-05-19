@@ -68,7 +68,7 @@ html{
 .card__btn{
     display: block;
     margin: 1.5rem;
-    border-radius: 0.25rem;
+    border-radius: 0.5rem;
     border: 0;
     text-align: center;
     text-decoration: none;
